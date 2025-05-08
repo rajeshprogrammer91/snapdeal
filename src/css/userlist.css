@@ -1,0 +1,29 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .delete{
+    background-color: red;
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 3px;
+  }
+  .edit{
+    background-color: rgb(75, 231, 40);
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 3px;
+  }
