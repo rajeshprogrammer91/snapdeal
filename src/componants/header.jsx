@@ -30,13 +30,7 @@ const Header = ()=>{
                     <li><a onClick={handlelogout}>{firstname}(Logout)</a></li>
                 </>
                 }
-                <li class="services">
-                    <a href="services.html">Services</a> <i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-down-s-fill"></i>
-                    <ul class="dropdown">
-                        <li><a href="react.html">React Js</a></li>
-                        <li><a href="node.html">NodeJs</a></li>
-                    </ul>
-                </li>     
+               
                 <li><a>Contact</a></li>   
                 </div>
             </ul>
